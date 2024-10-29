@@ -1,0 +1,2 @@
+    squashall = "!f() { git reset $(git merge-base \"$1^\" $(git branch --show-current)); }; f"
+    bname = "rev-parse --abbrev-ref HEAD"
