@@ -62,6 +62,7 @@ applications=(
     "nmap:nmap"
     "NVM:nvm"
     "Pyenv:pyenv"
+    "UV:uv"
     "Terraform:terraform"
     "Tmux:tmux"
     "Watch:watch"
@@ -93,4 +94,3 @@ main() {
 
 # Run the main function
 main
-

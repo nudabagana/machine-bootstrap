@@ -24,4 +24,12 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+# Run the setup_ai.sh script
+echo "Running setup_ai.sh..."
+./setup_ai.sh
+if [ $? -ne 0 ]; then
+    echo "Error: setup_ai.sh failed."
+    exit 1
+fi
+
 echo "Setup completed successfully."

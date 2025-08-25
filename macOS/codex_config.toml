@@ -1,0 +1,21 @@
+approval_policy = "never"
+model_reasoning_summary  = "detailed"
+model_verbosity = "low"
+sandbox_mode = "workspace-write"
+
+[mcp_servers.brave-search]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-brave-search", "--transport", "stdio"]
+env = { "BRAVE_API_KEY" = "ENTER_KEY" }
+
+[mcp_servers.context7]
+args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+command = "npx"
+
+[mcp_servers.time]
+args = ["mcp-server-time"]
+command = "uvx"
+
+[mcp_servers.fetch]
+args = ["mcp-server-fetch"]
+command = "uvx"
