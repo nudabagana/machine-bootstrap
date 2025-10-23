@@ -1,7 +1,9 @@
-approval_policy = "never"
+approval_policy = "on-request"
 model_reasoning_summary  = "detailed"
 model_verbosity = "low"
 sandbox_mode = "workspace-write"
+experimental_use_rmcp_client = true
+network_access = true
 
 [mcp_servers.brave-search]
 command = "npx"
@@ -19,3 +21,7 @@ command = "uvx"
 [mcp_servers.fetch]
 args = ["mcp-server-fetch"]
 command = "uvx"
+
+[mcp_servers.datadog]
+type = "http"
+url = "https://mcp.datadoghq.com/api/unstable/mcp-server/mcp"
