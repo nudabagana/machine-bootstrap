@@ -54,6 +54,9 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/Users/matasramanauskas/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin:$PATH"
 export JAVA_HOME="/Users/matasramanauskas/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 
+# Android home
+export ANDROID_HOME="/Users/matasramanauskas/Library/Android/sdk/"
+
 # AVD emulator
 export PATH="/Users/matasramanauskas/Library/Android/sdk/emulator/:$PATH"
 
