@@ -65,6 +65,7 @@ applications=(
     "UV:uv"
     "Terraform:terraform"
     "Tmux:tmux"
+    "Tmux:tmuxp"
     "Watch:watch"
     "DBeaver Community:dbeaver-community"
     "Flameshot:flameshot"
