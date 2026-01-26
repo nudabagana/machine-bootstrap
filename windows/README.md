@@ -16,3 +16,6 @@ cd machine-bootstrap/windows
 ```bash
 ./setup.sh
 ```
+
+## winget_shims
+If an installed app does not add its command to PATH, `winget_shims` provides `.cmd` shims to make those commands available. After adding the shim directory to PATH, fully close and reopen all terminals (including VS Code) to refresh environment variables.

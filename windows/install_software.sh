@@ -14,11 +14,15 @@ ensure_winget() {
 # Each entry uses the format "Display Name:Package.Identifier"
 packages=(
     "Git:Git.Git"
+    "Codex:OpenAI.Codex"
     "VSCode:Microsoft.VisualStudioCode"
     "Brave:Brave.Brave"
     "Steam:Valve.Steam"
     "MSIAfterburner:Guru3D.Afterburner"
     "VLC:VideoLAN.VLC"
+    "Spotify:Spotify.Spotify"
+    "Syncthing:Syncthing.Syncthing"
+    "Obsidian:Obsidian.Obsidian"
 )
 
 install_package() {
