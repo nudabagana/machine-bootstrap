@@ -23,6 +23,9 @@ packages=(
     "Spotify:Spotify.Spotify"
     "Syncthing:Syncthing.Syncthing"
     "Obsidian:Obsidian.Obsidian"
+    "Discord:Discord.Discord"
+    "Flameshot:Flameshot.Flameshot"
+    "OBS:OBSProject.OBSStudio"
 )
 
 install_package() {
