@@ -20,6 +20,10 @@ cd machine-bootstrap/windows
 ## winget_shims
 If an installed app does not add its command to PATH, `winget_shims` provides `.cmd` shims to make those commands available. After adding the shim directory to PATH, fully close and reopen all terminals (including VS Code) to refresh environment variables.
 
+## WSL
+wsl is installed by the script, however you'll need to install distro that you want to use to start it. It can be done with `wsl.exe --install Ubuntu`.
+**To setup Ubuntu env inside wsl, refer to [ubuntu](../ubuntu/README.md) bootstrap folder.**
+
 ## Windows Defender
 To disable windows defender:
 gpedit.msc → Computer Configuration → Administrative Templates → Windows Components → Microsoft Defender Antivirus → Turn off Microsoft Defender Antivirus → Enabled

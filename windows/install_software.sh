@@ -26,6 +26,8 @@ packages=(
     "Discord:Discord.Discord"
     "Flameshot:Flameshot.Flameshot"
     "OBS:OBSProject.OBSStudio"
+    "wsl:Microsoft.WSL"
+    "DockerDesktop:Docker.DockerDesktop"
 )
 
 install_package() {
