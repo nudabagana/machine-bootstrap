@@ -1,0 +1,13 @@
+interface:
+  display_name: "IMDb Letterboxd Sync"
+  short_description: "Interactive IMDb export and Letterboxd import"
+  default_prompt: "Use $imdb-letterboxd-sync to export my IMDb ratings and import them into Letterboxd with manual login checkpoints."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "playwright"
+      description: "Playwright MCP browser automation for interactive export and import flow"
+
+policy:
+  allow_implicit_invocation: true
