@@ -16,6 +16,7 @@ packages=(
     "Git:Git.Git"
     "Codex:OpenAI.Codex"
     "VSCode:Microsoft.VisualStudioCode"
+    "DotNet SDK 10:Microsoft.DotNet.SDK.10"
     "Brave:Brave.Brave"
     "Steam:Valve.Steam"
     "MSIAfterburner:Guru3D.Afterburner"
@@ -28,6 +29,7 @@ packages=(
     "OBS:OBSProject.OBSStudio"
     "wsl:Microsoft.WSL"
     "DockerDesktop:Docker.DockerDesktop"
+    "Dbeaver:DBeaver.DBeaver.Community"
 )
 
 install_package() {
